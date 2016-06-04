@@ -4,7 +4,7 @@ body{
   font-family: Century Gothic;
   display: flex;
   flex-direction: column;
-  flex:4;
+  flex:6;
 }
 
 h1{
@@ -14,17 +14,18 @@ h1{
 }
 
 #top{
-  flex: 1 0 100px;
+  /*flex: 1 0 100px;*/
   /*border:1px solid black;*/
   display: flex;
   flex-direction: column;
   align-items: center;
-padding: 4.5%;
-}
+  padding: 4.5%;
+  height:200px;
+  }
 #middle{
 
   /*border:1px solid black;*/
-  flex:1 0 500px;
+  /*flex:1 0 500px;*/
   display: flex;
   flex-direction: row;
   align-items: center;
